@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0px;
+        }
+        .class{
+            box-sizing:border-box;
+           
+        }
+        summary{
+            color:rgb(76, 36, 112);
+            font-size: larger;
+            font-weight: bolder;
+            font-family: sans-serif; 
+            display:flex;
+            justify-content: center;
+        }
+        a{
+            color:chartreuse;
+            text-decoration: none;
+            font-size: larger;
+            font-weight: bolder; 
+            font-family: sans-serif;
+        }
+        a:hover{
+            background-color:black;
+           padding-left: 80px;
+           padding-right: 80px;
+        }
+        .inner{
+            display:flex;
+            justify-content: center;
+        }
+        .outer{
+            width:100%;
+        }
+        iframe{
+            width:100%;
+            height: 300px;
+            
+        }
+        p{
+            display:flex;
+            justify-content: center;
+            text-align: center;
+        }
+        summary:hover{
+            background-color: dodgerblue;
+        }
+    @media screen and (min-width: 426px) {
+    .outer {
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+    a {
+        color: blueviolet;
+    }
+    a:hover {
+        background-color: lightpink;
+    }
+    summary {
+        color: chartreuse;
+    }
+    .class {
+        display: grid;
+        grid-template-columns: repeat(4, 300px);
+        gap: 5px;
+        justify-content: space-evenly;
+    }
+}
+
+    </style>    
+</head>
+<body>
+    <div class="class">
+        <div class="outer"><iframe id="image"src=""name="singam"scrolling=""></iframe><br>
+        <div class="inner"><a href="singam.mp4"target="singam">Singam 3</a><br></div>
+            <div><details>
+            <summary>Movie Summary</summary>
+            <p>A police chief is tasked with solving the murder case of the police commissioner. When he finds out that a powerful gangster is responsible for it, he decides to end the latter's tyrannical reign.</p>
+            </details></div>
+        </div>
+        <div class="outer"><iframe src=""name="fidaa"></iframe><br>
+            <div class="inner"><a href="fidaa.mp4"target="fidaa">Fidaa</a><br></div>
+            <div><details>
+            <summary>Movie Summary</summary>
+            <p>Varun, an NRI medical student, and Bhanu, a vivacious, young woman, fall in love with each other. However, they face many personal differences that create complications in their relationship.</p>
+            </details></div>
+        </div>
+        <div class="outer"><iframe src=""name="bhee"></iframe><br>
+        <div class="inner"><a href="bheeshma.mp4"target="bhee">Bheeshma</a><br></div>
+            <div><details>
+            <summary>Movie Summary</summary>
+            <p>When Bheeshma gets involved with Chaitra, an employee of Bheeshma Organics, he develops an interest in organic farming. Trouble ensues when her company announces a new product that seems to be shady.</p>
+            </details></div>
+        </div>    
+        <div class="outer"><iframe src=""name="khu"></iframe><br>
+        <div class="inner"><a href="khushi.mp4"target="khu">Khushi</a><br></div>
+            <div><details>
+            <summary>Movie Summary</summary>
+            <p>A young man from an agnostic family falls in love with the daughter of his father's arch-rival, a devout Hindu leader.
+            </p>
+            </details></div>
+        </div>    
+    </div>
+</body>
+</html>
